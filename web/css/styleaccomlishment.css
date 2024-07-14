@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.header-button {
+    background-color: #0073b1;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header-button:hover {
+    background-color: #005582;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.certificate {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.certificate-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.certificate-info {
+    flex-grow: 1;
+}
+
+.certificate-info h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #0066c0;
+}
+
+.certificate-info p {
+    margin: 5px 0 0;
+    color: #555;
+}
+
+.linkedin-button {
+    background-color: #0073b1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.linkedin-button:hover {
+    background-color: #005582;
+}
+
+a{
+    text-decoration: none;
+    color: white
+}
+

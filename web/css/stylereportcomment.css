@@ -1,0 +1,85 @@
+/* styles.css */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.report-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.report-container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #333333;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #555555;
+}
+
+input[type="text"],
+select,
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333333;
+}
+
+input[type="text"]:focus,
+select:focus,
+input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.message {
+    color: white;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.hidden{
+    display: none;
+}
